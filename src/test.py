@@ -1,4 +1,3 @@
-# src/test.py
 import pickle
 from cleaning import clean_text
 
