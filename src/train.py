@@ -1,11 +1,12 @@
 # src/train.py
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 import pickle
-from cleaning import clean_text  # import cleaning function
+from cleaning import clean_text 
 
 # Replace with the exact file name
 data = pd.read_csv("Dataset-SA.csv")
